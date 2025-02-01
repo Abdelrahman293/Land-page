@@ -1,0 +1,587 @@
+
+/* Start container*/
+.container
+{
+	width: 1170px;
+	margin: auto;
+} 
+
+.clearfix
+{
+	clear: both;
+}
+
+/* end container */ 
+/* header*/
+.Header .slider
+{
+	background-image: url('../Images/slider.jpg');
+	background-size: cover;
+	height: 600PX;
+}
+.Header .slider .intro  
+{
+	padding-top: 200px;
+	text-align: center;
+	color: gray;
+}
+.Header .slider .intro h2
+{
+		margin: 0 auto;
+		font-size: 50px;
+		width: 600px;
+		border-bottom: 4px solid gray;
+		border-top: 4px solid gray;
+		padding: 5px 0;
+} 
+
+.Header .slider .intro button
+{
+	background: none;
+	color: gray;
+	font-size: 30px;
+	margin: 30px;
+	border: 3px solid gray;
+	font-weight: bold;
+
+}
+.Header .navbar
+{
+	background-color: #252F31;
+	color: #FFF;
+	overflow: hidden;
+}
+.Header .navbar h2
+{
+	float: left;
+	text-transform: uppercase;
+}
+.Header .navbar span
+{
+	color: #23cc71;
+}
+.Header .navbar ul
+{
+	list-style: none;
+	padding-left: 0;
+	float: right;
+	
+}
+.Header .navbar li 
+{
+	float: left;
+	padding: 10px;
+
+}
+.Header .navbar li a {
+	text-decoration: none;
+	color: #FFF;
+}
+.Header .navbar ul li.active a 
+{
+	color: #30B576;
+}
+.Header .navbar ul li a:hover 
+{
+	color: #30B576;
+}
+/*end header*/
+
+/* start features */
+.features 
+{
+	overflow: hidden;
+	padding-top:40px ;
+	padding-bottom: 50px;
+}
+.features .feat
+{
+	float: left;
+	width: 33.3333%;
+	height: 150px;
+
+}
+.features .feat h2 
+{
+	text-transform: capitalize;
+	color: #555;
+}
+.features .feat p 
+{
+	line-height: 1.7;
+	color: #888;
+}
+/* end features */
+
+/* start about me*/
+.about_me 
+{
+	background-color: #F2F2F2;
+	overflow: hidden;
+}
+.about_me .image
+{
+	float: left;
+	width: 40%;
+
+
+}
+.about_me .image img {
+	width: 100%;
+	height: 540px;
+
+}
+.about_me .info
+{
+	float: left;
+	width: 60%;
+}
+.about_me .info h2 
+{
+	margin: 20px 0 20px 40px;
+	color: #555;
+
+}
+.about_me .info > p
+{
+	margin: 0 0 20px 40px;
+}
+.about_me .info > p:last-of-type 
+{
+	margin-top: 15px;
+	
+}
+.about_me .info  p
+{
+
+	line-height: 1.7;
+	color: #666; 
+}
+.about_me .info .hobbies
+{
+	overflow: hidden;
+	margin: 15px 0 0 40px;
+}
+.about_me .info .hobbies .content
+{
+	float: left;
+	width: 50%;
+	min-height: 100px;
+	overflow: hidden;
+
+}
+.about_me .info .hobbies .content > h3
+{
+	color: #555;
+}
+.about_me .info .hobbies .content .icon
+{
+	float: left;
+	width: 10%;
+	margin-right: 5%;
+}
+.about_me .info .hobbies .content .icon img
+{
+	max-width: 100%;
+	margin: 40px 20px 0 0;
+}
+.about_me .info .hobbies .content .text
+{
+	float: left;
+	width: 85%;
+}
+.about_me .info .hobbies .content .text h3 
+{
+	margin-bottom: 5%;
+
+}
+
+.about_me .info .hobbies .content .text p 
+{
+	margin-top: 0;
+
+}
+
+/* end about me */
+
+/* start my skills*/
+.my_skills 
+{
+	overflow: hidden;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.my_skills .skills,
+.my_skills .my_progress
+{
+	width: 50%;
+	float: left;
+}
+.my_skills .skills h2
+{
+	margin: 20px 0 20px 40px;
+	color: #555;
+}
+.my_skills .skills p
+{
+	margin: 0 0 10px 40px;
+	line-height: 1.7;
+	color: #666; 
+}
+.my_skills .skills > p:last-of-type 
+{
+	margin-top: 15px;	
+}
+.my_skills .skills button
+{
+	background: none;
+	color: #2DCC70;
+	padding: 10px 30px;
+	font-size: 20px;
+	margin: 20px 0 0 40px;
+	border: 3px solid #2DCC70;
+	font-weight: bold;
+}
+.my_skills .my_progress .technique {margin-left: 30px}
+.my_skills .my_progress .technique h3 
+{
+	color: #555;
+}
+.my_skills .my_progress .technique div
+{
+	background-color: #F2F2F2;
+	height: 25px;
+}
+.my_skills .my_progress .technique div span
+{
+	background-color: #2DCC70;
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	text-align: right;
+	color: white;
+	font-weight: bold;
+}
+
+/* end my skills*/
+
+/*start resume*/
+.resume 
+{
+	background-color: #F2F2F2;
+	overflow: hidden;
+	padding-top: 50px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+.resume h2 
+{
+	font-weight: bold;
+	color: #666;
+}
+
+.resume p
+{
+	margin: 0 0 10px 40px;
+	line-height: 1.7;
+	color: #666; 
+}
+.resume button
+{
+	background: none;
+	color: #2DCC70;
+	padding: 10px 30px;
+	font-size: 20px;
+	margin-top: 25px; 
+	border: 3px solid #2DCC70;
+	font-weight: bold;
+}
+/* end resume*/
+
+/* start my education*/
+.my_education
+{
+	overflow: hidden;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.my_education  hr 
+{
+	background-color: #999;
+	margin: 20px 0;
+	border: 0;
+	height: 1px;
+}
+.my_education .education 
+{
+	width: 50%;
+	margin-right: 5%;
+	float: left;
+}
+.my_education .exp 
+{
+	width: 45%;
+	float: left;
+}
+.my_education .experience
+{
+	width: 50%;
+	margin-right: 5%;
+	float: left;
+
+}
+.my_education .education h2
+{
+	margin: 20px 0 20px 40px;
+	color: #555;
+}
+.my_education .education p
+{
+	margin: 0 0 10px 40px;
+	line-height: 1.7;
+	color: #666; 
+}
+.my_education .education > p:last-of-type 
+{
+	margin-top: 15px;	
+}
+.my_education .experience h2
+{
+	margin: 20px 0 20px 40px;
+	color: #555;
+}
+.my_education .experience p
+{
+	margin: 0 0 10px 40px;
+	line-height: 1.7;
+	color: #666; 
+}
+.my_education .exp h3
+{
+	margin-top: 80px;
+	margin-bottom: 10px;
+}
+.my_education .exp span 
+{
+	display: block;
+	margin-bottom: 10px;
+}
+.my_education .exp span:first-of-type
+{
+	color: #999;
+}
+.my_education .exp span:last-of-type
+{
+	
+	background-color: #2DCC70;
+	display: inline-block;
+	padding: 4px 10px;
+	color: white;
+}
+
+.my_education .exp p
+{
+	line-height: 1.7;
+	color: #666; 
+}
+/* end my education*/
+
+/*start testmonials*/
+.testmonials 
+{
+	background-color: #F2F2F2;
+	overflow: hidden;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.testmonials q
+{
+	margin: 0 0 10px 40px;
+	line-height: 1.7;
+	color: #888;
+	font-size: 18px;
+	font-weight: bold; 
+	font-style: italic;
+}
+.testmonials h3 
+{
+	color: #777;
+	padding-bottom: 30px;
+}
+.testmonials ul 
+{
+	list-style: none;
+	padding-left: 0;
+	text-align: center;
+
+}
+.testmonials ul li 
+{
+	height: 10px;
+	width: 10px;
+	border: 2px solid #26CC70;
+	display: inline-block;
+	cursor: pointer;
+}
+.testmonials ul li.active 
+{
+	background-color: #26CC70;
+}
+.testmonials ul li:hover
+{
+	background-color: #26CC70;
+}
+/* end testmonials*/
+
+/* start portfolio*/
+.Portfolio 
+{
+	overflow: hidden;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.Portfolio .port
+{
+	text-align: center;
+}
+.Portfolio .port h2 {
+	text-transform: uppercase;
+	padding-bottom: 30px;
+	 
+}
+.Portfolio .port p 
+{
+	line-height: 1.7;
+	color: #666;
+	padding-bottom: 30px;
+}
+.Portfolio .our_work
+{
+	overflow: hidden;
+}
+.Portfolio .our_work >div
+{
+	float: left;
+	width: 33.3333%;
+	margin-bottom: 10px;
+}
+.Portfolio .our_work >div img {
+	/*width: 92%;*/
+	width: 350px;
+	height: 350px;
+	margin: 10px;
+}
+/* end portfolio*/
+
+/* start contact me */
+.contact 
+{
+	background-color: #252F31;
+	overflow: hidden;
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+.contact h2{
+	color: #FFF;
+	margin-left: 40px;
+}
+
+.contact p
+{	
+	color: #6A6E71;
+	margin-left: 40px;
+	line-height: 1.7;
+}
+
+.contact .info 
+{
+	float: left;
+	width: 50%;
+	margin-right: 5%;
+	
+}
+.contact .form 
+{
+	float: left;
+	width: 45%;
+	padding-top: 50px;
+}
+.contact .info p strong 
+{
+	color: #D1D6DA;
+}
+.contact .form label 
+{
+	display: block;
+	color: #D1D6DA;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.contact .form input[type="text"] 
+{
+	background-color: #4B5557;
+	width: 70%;
+	height: 30px;
+	border: 0;
+	
+	color: #FFF;
+}
+.contact .form textarea
+{
+	width: 70%;
+	height: 200px;
+	background-color: #4B5557;
+	color: #FFF;
+	margin-bottom: 30px;
+	
+}
+.contact .form input[type="Submit"]
+{
+	background: #191E22;
+	color: #FFF;
+	padding: 10px 20px;
+	margin-top: 10px;
+	border: 0;
+	
+
+
+}
+/* end contact me */
+
+
+/* start footer*/
+.footer 
+{
+	background-color: #191E22;
+	color: #6A6E71;
+	/*padding: 10px 0;*/
+	text-align: center;
+	overflow: hidden;
+}
+.footer span 
+{
+	display: block;
+	float: left;
+	padding-top: 20px ;
+}
+.footer ul 
+{
+	list-style: none;
+	float: right;
+	padding-left: 0;
+	
+}
+.footer ul li 
+{
+	display: inline-block;
+}
+.footer ul li:hover
+{
+	color: #FFF;
+	cursor: pointer;
+}
+
+
+/* end footer*/
+
